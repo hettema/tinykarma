@@ -1,0 +1,37 @@
+<head>
+  <title>Tiny Karma - where (small) good deeds live</title>
+</head>
+<body>
+
+</body>
+
+
+<template name="main">
+  <div class="container">
+  	<div class="row clearfix">
+  		<div class="col-md-12 column">
+        {{ > Template.dynamic template=header }}
+      </div>
+    </div>
+
+
+<!-- task container start -->
+    <div class="row clearfix">
+      <div class="col-md-12 column">
+      	<div class="row clearfix">
+          {{ > Template.dynamic template=body }}
+  			</div>
+  		</div>
+  	</div>
+<!-- task container end -->
+
+<!-- footer start -->
+  	<div class="row clearfix">
+  		<div class="col-md-12 column">
+        {{ > Template.dynamic template=footer }}
+  		</div>
+  	</div>
+<!-- footer end -->
+
+  </div>
+</template>
