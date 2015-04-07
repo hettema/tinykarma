@@ -1,3 +1,11 @@
 <template name="userProfile">
-  User profile goes here
+  <!-- profile start -->
+            <div class="col-md-2 column">
+              <img alt="140x140" src="{{twitterDetails.profile_image_url}}" class="img-thumbnail">
+              <strong>{{twitterDetails.screenName}}</strong><br>
+              <span class="label label-info">followers: 200</span>
+              <span class="label label-primary">following: 900</span>
+              <span class="label label-default">tweets: 2,500</span>
+            </div>
+  <!-- profile end -->
 </template>

@@ -13,3 +13,9 @@ msavin:mongol
 accounts-twitter
 twbs:bootstrap
 fortawesome:fontawesome
+accounts-base
+ian:accounts-ui-bootstrap-3
+autopublish
+aldeed:autoform
+mpowaga:autoform-summernote
+aldeed:simple-schema

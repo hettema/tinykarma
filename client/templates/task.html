@@ -1,14 +1,35 @@
 <template name="task">
-  <div class="row">
-    <div class="col-md-3">
-      <div class="caption">
-        <h4>Request by: @dhettema</h4>
-          <div class="well well-sm">
-            I need a virtual hug!
-          </div>
+  <div class="row clearfix">
+    <div class="col-md-12 column">
+      <div class="row clearfix">
+        
+        {{> userProfile}}
+
+        <!-- task start -->
+                  <div class="col-md-6 column">
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h3 class="panel-title">
+                          help @dhettema with
+                        </h3>
+                      </div>
+                      <div class="panel-body">
+                        I need a virtual hug
+                      </div>
+                      <div class="panel-footer">
+                        <div class="btn-group btn-group-xs">
+                           <button class="btn btn-default" type="button"><em class="fa fa-child"></em> Help out!</button>
+                           <button class="btn btn-default" type="button"><em class="fa fa-frown-o"></em> Frown upon</button>
+                           <button class="btn btn-default" type="button"><em class="fa fa-share-square"></em> Share</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+        <!-- task end -->
+
+        {{> assist}}
+
       </div>
-      <button type="button" name="assist">Assist</button> /
-      <button type="button" name="smite">smite</button>
     </div>
   </div>
 </template>
